@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Mister Coins</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+
+  <body onkeyup="onKey(event)" onload="onInitGame()">
+    <h1>Collect All The Coins!</h1>
+    <h2>Number of Coins Around Super Mario: <span>0</span></h2>
+    <div>
+      Counter of Coins:
+      <span class="counter">0</span>
+    </div>
+
+    <table>
+      <tbody class="board"></tbody>
+    </table>
+
+    <button onclick="onInitGame()">Restart</button>
+    <script src="js/util.js"></script>
+    <script src="js/app.js"></script>
+  </body>
+</html>
